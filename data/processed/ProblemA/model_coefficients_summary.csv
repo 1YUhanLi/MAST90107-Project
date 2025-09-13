@@ -1,0 +1,6 @@
+,Coefficient,Std_Error,z_value,p_value,CI_lower,CI_upper
+Intercept,1.3416,0.1272,10.5439,0.0,1.0922,1.5909
+"C(MODEL, Treatment('K5'))[T.ELF5]",1.2961,0.1405,9.2254,0.0,1.0207,1.5715
+"C(MODEL, Treatment('K5'))[T.PR]",1.0511,0.1291,8.1423,0.0,0.7981,1.3041
+"C(CHANNEL, Treatment('RFP'))[T.CFP]",-0.5133,0.1117,-4.597,0.0,-0.7321,-0.2944
+"C(CHANNEL, Treatment('RFP'))[T.YFP]",-0.3137,0.1472,-2.1305,0.0331,-0.6023,-0.0251
