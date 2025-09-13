@@ -189,8 +189,5 @@ python -c "import pandas as pd; print(pd.read_csv('data/processed/data_core.csv'
 3. **Validation Protocols**: Comprehensive robustness checking procedures
 4. **Reproducible Pipeline**: End-to-end automated analysis workflow
 
-## Citation and Acknowledgments
-
-This project was developed as part of MAST90107 coursework, implementing state-of-the-art statistical and machine learning methods for biological image analysis. The analytical framework provides a foundation for systematic mammary gland cell research and automated microscopy analysis.
 ---
 
