@@ -219,7 +219,6 @@ python -c "import pandas as pd; print(pd.read_csv('data/processed/data_core.csv'
 - **Performance Comparison**: Downsampling achieved +5.2% average improvement over oversampling
 - **Best Model**: Logistic Regression with 0.519 Macro-F1 (vs. 0.457 with oversampling)
 - **Computational Efficiency**: 94.5% data reduction with 18x training speedup
-- **Validation of Approach**: Confirmed supervisor's hypothesis that simple balancing works for 3-class problems
 - **Class Balance Achievement**: Perfect 1:1:1 ratio while preserving all minority class samples
 
 ## Applications and Impact
