@@ -216,10 +216,11 @@ python -c "import pandas as pd; print(pd.read_csv('data/processed/data_core.csv'
 - **Biological Relevance**: Automated pipeline reduces manual classification workload
 
 #### Comparative Study Results (Downsampling vs. Oversampling)
-- **Performance Comparison**: Downsampling achieved +5.2% average improvement over oversampling
-- **Best Model**: Logistic Regression with 0.519 Macro-F1 (vs. 0.457 with oversampling)
+- **Performance Comparison**: Downsampling shows -15.3% average performance decrease vs oversampling
+- **Key Trade-off**: Computational efficiency (18x speedup) vs model accuracy (0.519 vs 0.589 Macro-F1 for LR)
 - **Computational Efficiency**: 94.5% data reduction with 18x training speedup
 - **Class Balance Achievement**: Perfect 1:1:1 ratio while preserving all minority class samples
+- **Practical Insight**: Oversampling preferred for accuracy; downsampling for rapid prototyping
 
 ## Applications and Impact
 
@@ -232,7 +233,7 @@ python -c "import pandas as pd; print(pd.read_csv('data/processed/data_core.csv'
 ### Methodological Contributions
 1. **Statistical Framework**: Robust approach for count data with technical confounders
 2. **Class Imbalance Solutions**: Comprehensive comparison of oversampling vs. downsampling strategies
-3. **Computational Efficiency**: Demonstrated 18x speedup with minimal performance trade-offs
+3. **Computational Efficiency**: Demonstrated 18x speedup with significant performance trade-offs (-15.3%)
 4. **Validation Protocols**: Comprehensive robustness checking procedures
 5. **Reproducible Pipeline**: End-to-end automated analysis workflow
 6. **Practical Guidance**: Evidence-based recommendations for resource-constrained environments
